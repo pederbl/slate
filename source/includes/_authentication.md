@@ -1,5 +1,7 @@
 # Authentication
 
+TESTING
+
 The Customize Your Demo API uses JSON Web Tokens (JWT) to authenticate requests. The JWT token is fetched with a `get_jwt_token` request (see the Authentication section) with the email and password for the user requesting access. The JWT token must be supplied as a bearer in the Authorization header of each API request. Use `-H "Authorization: Bearer YOUR_JWT_TOKEN_HERE"`. 
 
 The JWT token remains valid over time unless the invalidate_all_access_tokens action is called for a user. 
